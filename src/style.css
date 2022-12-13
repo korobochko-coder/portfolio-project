@@ -3,6 +3,10 @@
   --primary-color: #e7eaf6;
 }
 
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
 .navbar {
   background-color: var(--primary-color);
   margin-bottom: 50px;
