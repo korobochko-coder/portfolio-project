@@ -1,4 +1,9 @@
+:root {
+  --main-bg-color: #a2a8d3;
+  --primary-color: #e7eaf6;
+}
+
 .navbar {
-  background-color: #e7eaf6;
+  background-color: var(--primary-color);
   margin-bottom: 50px;
 }
