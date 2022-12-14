@@ -11,3 +11,21 @@ body {
   background-color: var(--primary-color);
   margin-bottom: 50px;
 }
+
+.hero-page {
+  background-color: var(--main-bg-color);
+}
+
+.intro {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.photo {
+  border-radius: 43% 57% 55% 45% / 22% 50% 50% 78%;
+}
+
+#bio-button:hover {
+  background-color: var(--primary-color) !important;
+}
