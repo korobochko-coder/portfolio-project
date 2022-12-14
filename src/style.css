@@ -30,7 +30,8 @@ body {
   background-color: var(--primary-color) !important;
 }
 
-.projects-part {
+.projects-part,
+.contact-part {
   background-color: var(--primary-color);
   padding-bottom: 30px;
 }
@@ -45,4 +46,8 @@ h2 {
 
 #projects-img {
   border-radius: 14px;
+}
+
+#contact-button:hover {
+  background-color: var(--main-bg-color) !important;
 }
