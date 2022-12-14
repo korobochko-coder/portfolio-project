@@ -9,6 +9,7 @@ body {
 
 .page {
   background-color: var(--main-bg-color);
+  padding-bottom: 30px;
 }
 
 .navbar {
@@ -26,7 +27,7 @@ body {
   border-radius: 43% 57% 55% 45% / 22% 50% 50% 78%;
 }
 
-#bio-button:hover {
+#button-1:hover {
   background-color: var(--primary-color) !important;
 }
 
@@ -73,4 +74,8 @@ h2 {
 
 i {
   margin: 5px;
+}
+
+#projects-cover-img {
+  border: 3px solid #885df1;
 }
