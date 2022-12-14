@@ -29,3 +29,20 @@ body {
 #bio-button:hover {
   background-color: var(--primary-color) !important;
 }
+
+.projects-part {
+  background-color: var(--primary-color);
+  padding-bottom: 30px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 55px;
+  padding-left: 6px;
+  margin-right: 55px;
+  padding-right: 6px;
+}
+
+#projects-img {
+  border-radius: 14px;
+}
