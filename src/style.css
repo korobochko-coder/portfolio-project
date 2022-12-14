@@ -9,7 +9,6 @@ body {
 
 .page {
   background-color: var(--main-bg-color);
-  padding-bottom: 30px;
 }
 
 .navbar {
