@@ -31,83 +31,85 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a href="#"
-          ><img
-            src="images/AnnaWeldon-logo.png"
-            alt="Logo"
-            width="200px"
-            height="50px"
-        /></a>
+    <div class="page">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a href="#"
+            ><img
+              src="images/AnnaWeldon-logo.png"
+              alt="Logo"
+              width="200px"
+              height="50px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >Bio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html#contact-button-about-page"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="about-part">
+        <h2>About me</h2>
+        <hr class="mt-0" />
+        <div class="container text-left mt-5">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Numquam aperiam provident tempora? Cumque adipisci, non dolorem
+                quia, odit qui alias veniam excepturi rem dolor fugit
+                dignissimos, sed voluptatum blanditiis harum.
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <img
+                class="photo mb-4 img-fluid"
+                src="images/foto.jpeg"
+                alt="photo of Anna"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-part pb-4">
+        <h2 class="pt-3">Contact me</h2>
+        <hr class="mt-0 mb-4" />
         <button
-          class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          class="btn btn-outline-dark d-block m-auto"
+          id="contact-button"
         >
-          <span class="navbar-toggler-icon"></span>
+          <a
+            href="mailto:korobochko.a@gmail.com"
+            title="About Me"
+            class="text-black text-decoration-none"
+            ><i class="fa-solid fa-envelope"></i> Email me</a
+          >
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto text-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html"
-                >Bio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html#contact-button-about-page"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
       </div>
-    </nav>
-    <div class="about-part">
-      <h2 class="pt-3">About me</h2>
-      <hr class="mt-0" />
-      <div class="container text-left mt-5">
-        <div class="row">
-          <div class="col-sm-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-              aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
-              qui alias veniam excepturi rem dolor fugit dignissimos, sed
-              voluptatum blanditiis harum.
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <img
-              class="photo mb-4 img-fluid"
-              src="images/foto.jpeg"
-              alt="photo of Anna"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="contact-part pb-4">
-      <h2 class="pt-3">Contact me</h2>
-      <hr class="mt-0 mb-4" />
-      <button
-        type="button"
-        class="btn btn-outline-dark d-block m-auto"
-        id="contact-button"
-      >
-        <a
-          href="mailto:korobochko.a@gmail.com"
-          title="About Me"
-          class="text-black text-decoration-none"
-          ><i class="fa-solid fa-envelope"></i> Email me</a
-        >
-      </button>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

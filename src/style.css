@@ -7,13 +7,13 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+.page {
+  background-color: var(--main-bg-color);
+}
+
 .navbar {
   background-color: var(--primary-color);
   margin-bottom: 50px;
-}
-
-.hero-page {
-  background-color: var(--main-bg-color);
 }
 
 .intro {
